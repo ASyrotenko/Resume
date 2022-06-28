@@ -140,10 +140,14 @@
     font-size: 14px;
     line-height: 24px;
     color: #000000;
+    padding-left: 20px;
+    padding-bottom: 5px;
 }
 
+.projects_list,
 .table_projets {
     margin: 0 0 50px 0;
+    padding-left: 20px;
 }
 
 .table_number {
@@ -155,6 +159,8 @@
     padding: 0 20px 0 0;
 }
 
+.project_link_points,
+.project_link,
 .table_link,
 .table_points {
     font-style: normal;
@@ -164,6 +170,7 @@
     color: #595959;
 }
 
+.project_link_bracket,
 .table_bracket {
     font-style: normal;
     font-weight: 700;
@@ -172,6 +179,7 @@
     color: #000000;
 }
 
+.projetc_link_description,
 .table_link_discription {
     font-style: normal;
     font-weight: 400;
@@ -265,4 +273,56 @@
 
 .Logo_GoIT {
     height: 15px;
+    padding-left: 5px;
+}
+
+/* Adaptive layout */
+
+@media screen and (max-width: 767px) {
+    .main {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .sidebar {
+        width: 100%;
+        padding: 0;
+    }
+
+    .img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .main_content {
+        width: 100%;
+        padding: 0 0 0 10px;
+    }
+
+    .about_decription {
+        width: 100%;
+    }
+
+    .sidebar_contacts,
+    .sidebar_soft_skills,
+    .sidebar_tech_skills {
+        margin-left: 10px;
+    }
+    
+    .about_possition {
+        margin-top: 10px;
+    }
+
+    .sidebar_tech_and_soft_skills {
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    .body {
+        width: 100%;
+    }
+
+    .projects_list {
+        width: 100%;
+    }
 }
