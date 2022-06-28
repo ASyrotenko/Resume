@@ -144,8 +144,7 @@
     padding-bottom: 5px;
 }
 
-.projects_list,
-.table_projets {
+.projects_list {
     margin: 0 0 50px 0;
     padding-left: 20px;
 }
@@ -160,9 +159,7 @@
 }
 
 .project_link_points,
-.project_link,
-.table_link,
-.table_points {
+.project_link {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -170,8 +167,7 @@
     color: #595959;
 }
 
-.project_link_bracket,
-.table_bracket {
+.project_link_bracket {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -179,8 +175,7 @@
     color: #000000;
 }
 
-.projetc_link_description,
-.table_link_discription {
+.projetc_link_description {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -282,7 +277,7 @@
     .main {
         flex-direction: column;
         width: 100%;
-        margin: 0;
+        margin: 0;        
     }
 
     .sidebar {
@@ -296,12 +291,12 @@
     }
 
     .main_content {
-        width: 100%;
-        padding: 0 0 0 10px;
+        width: 100%-5px;
+        padding: 0 5px;
     }
 
     .about_decription {
-        width: 100%;
+        margin: 0;
     }
 
     .sidebar_contacts,
@@ -321,9 +316,18 @@
 
     .body {
         width: 100%;
+        margin: 0;
     }
 
     .projects_list {
         width: 100%;
+    }
+
+    .project_item {
+        padding: 0;
+    }
+
+    .about_name {
+        font-size: 36px;
     }
 }
