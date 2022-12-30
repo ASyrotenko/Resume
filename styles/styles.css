@@ -99,7 +99,7 @@
   font-size: 22px;
   line-height: 27px;
   color: #000000;
-  margin: 40px 0 10px 0;
+  margin: 20px 0 10px 0;
 }
 
 /* About user style*/
@@ -110,7 +110,7 @@
   font-size: 14px;
   line-height: 17px;
   color: #000000;
-  margin: 0 0 20px 0;
+  margin: 0 0 5px 0;
 }
 
 .about_name {
@@ -119,7 +119,7 @@
   font-size: 45px;
   line-height: 55px;
   color: #000000;
-  margin: 0 0 25px 0;
+  margin: 0 0 15px 0;
 }
 
 .about_decription {
@@ -128,7 +128,7 @@
   font-size: 14px;
   line-height: 24px;
   color: #595959;
-  margin: 0 0 30px 0;
+  margin: 0 0 15px 0;
   max-width: 400px;
 }
 
@@ -145,7 +145,7 @@
 }
 
 .projects_list {
-  margin: 0 0 50px 0;
+  margin: 0 0 30px 0;
   padding-left: 20px;
 }
 
@@ -183,6 +183,16 @@
   color: #595959;
 }
 
+.projetc_description {
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  max-width: 400px;
+}
+
 /* Work and Education style */
 
 .work_position {
@@ -191,7 +201,7 @@
   font-size: 16px;
   line-height: 20px;
   color: #000000;
-  margin: 25px 0 0 0;
+  margin: 20px 0 0 0;
 }
 
 .work_company {
@@ -237,6 +247,16 @@
   font-size: 14px;
   line-height: 24px;
   color: #595959;
+}
+
+.work_achievement {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  max-width: 400px;
+  margin-top: 5px;
 }
 
 .education_faculty {
@@ -319,6 +339,7 @@
 
   .sidebar_tech_and_soft_skills {
     display: flex;
+    flex-wrap: wrap;
     margin-left: 10px;
     margin-bottom: 10px;
   }
