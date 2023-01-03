@@ -321,16 +321,14 @@
   }
 
   .img {
+    max-width: 480px;
     width: 100%;
     margin-top: 20px;
-    /* margin: 20px 0 0 10px; */
   }
 
   .main_content {
     width: 100%-5px;
     padding: 5px 10px 10px 10px;
-    /* padding-top: 5px;
-    padding-bottom: 10px; */
   }
 
   .about_decription {
