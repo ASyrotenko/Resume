@@ -14,23 +14,25 @@
 /* Sidebar style */
 
 .sidebar {
-  background-color: #1e2939;
-  width: 370px;
+  background-color: #c5c9cf;
+  /* width: 370px; */
   padding: 40px 0 0 0;
   box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
 }
 
 .sidebar_contacts {
-  margin: 40px 20px 0 40px;
+  margin: 40px 20px 0 20px;
 }
 
 .sidebar_tech_skills,
 .sidebar_soft_skills {
-  margin: 54px 20px 0 40px;
+  margin: 54px 20px 0 20px;
 }
 
 .sidebar_title {
-  color: #ffffff;
+  color: #000000;
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
@@ -46,12 +48,20 @@
   line-height: 24px;
 }
 
+.contact_text {
+  margin: 0;
+}
+
+.contact_text:not(:last-child) {
+  margin-bottom: 5px;
+}
+
 .contact_link {
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 24px;
-  color: #a4acb8;
+  color: #000000;
   margin: 0 5px 0 0;
   padding-left: 5px;
 }
@@ -68,7 +78,7 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 24px;
-  color: #fb6d3a;
+  color: #000000;
 }
 
 .tech_list_text,
@@ -77,12 +87,12 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #ffffff;
+  color: #000000;
 }
 
 .img {
-  width: 370px;
-  margin: 10px 0 0 0;
+  max-width: 256px;
+  margin: 10px auto 0 auto;
 }
 
 /* Main content style*/
@@ -107,10 +117,10 @@
 .about_possition {
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 28px;
   line-height: 17px;
   color: #000000;
-  margin: 0 0 5px 0;
+  margin: 0 0 20px 0;
 }
 
 .about_name {
@@ -119,7 +129,7 @@
   font-size: 45px;
   line-height: 55px;
   color: #000000;
-  margin: 0 0 15px 0;
+  margin: 0 0 10px 0;
 }
 
 .about_decription {
@@ -127,7 +137,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: #000000;
   margin: 0 0 15px 0;
   max-width: 400px;
 }
@@ -164,7 +174,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: #000000;
 }
 
 .project_link_bracket {
@@ -180,7 +190,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: #000000;
 }
 
 .projetc_description {
@@ -189,7 +199,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: #000000;
   max-width: 400px;
 }
 
@@ -206,10 +216,10 @@
 
 .work_company {
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  color: #fb6d3a;
+  color: #000000;
   margin: 0;
 }
 
@@ -218,7 +228,7 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
-  color: #a8a8a8;
+  color: #000000;
   margin: 10px 0 0 0;
 }
 
@@ -236,7 +246,7 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: #000000;
   padding: 0;
   margin: 10px 0 0 20px;
 }
@@ -246,7 +256,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: #000000;
 }
 
 .work_achievement {
@@ -254,14 +264,14 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: #000000;
   max-width: 400px;
   margin-top: 5px;
 }
 
 .education_faculty {
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   color: #000000;
@@ -273,8 +283,8 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  color: #fb6d3a;
-  margin: 10px 0 0 0;
+  color: #000000;
+  margin: 15px 0 0 0;
 }
 
 .education_period {
@@ -282,7 +292,7 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
-  color: #a8a8a8;
+  color: #000000;
   margin: 5px 0 0 0;
 }
 
